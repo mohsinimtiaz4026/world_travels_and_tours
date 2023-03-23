@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+.logo img {
+    width: 40%;
+}
+.menu {
+    margin-bottom: 0;
+}
+.nav_item a {
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--heading-color);
+}
+.nav_item a:hover {
+    color: inherit;
+}
+.nav_item a.active_link {
+    color: var(--secondary-color);
+}
+.mobile_menu {
+    display: none;
+    font-size: 1.3rem;
+    color: var(--heading-color);
+}
+.sticky_header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+    position: sticky;
+    line-height: 80px;
+    background: #ffffff;
+    box-shadow: 3px 3px 8px -3px #ddd;
+}
